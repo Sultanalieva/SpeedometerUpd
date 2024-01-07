@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tachometer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="speedometer-container">
+      <div id="tachometer">
+        <div id="needle" class="arrow-container">
+          <div class="arrow-wrapper speed-0">
+            <div class="arrow"></div>
+          </div>
+          <div class="center-point"></div>
+        </div>
+        <div id="tacho-marks" class="speedometer-scale"></div>
+        <div class="speedometer-bottom-hide"></div>
+        <div class="speedometer-center-hide"></div>
+        <div class="speedometer-text">
+          <div class="static">Geschwindigkeit</div>
+          <div class="dynamic">
+            <span class="km" id="speedDisplay">0</span>
+            <span class="unit">km/h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
